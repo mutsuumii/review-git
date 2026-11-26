@@ -1,0 +1,1461 @@
+{
+  "source_repo": "git/git",
+  "source_url": "https://github.com/git/git",
+  "audit_date": "2026-11-26T08:48:00.883077",
+  "scanner_version": "1.3.0",
+  "findings_count": 181,
+  "severity_breakdown": {
+    "HIGH": 161,
+    "CRITICAL": 20
+  },
+  "findings": [
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "log-tree.c",
+      "line": 1080
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "log-tree.c",
+      "line": 999
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "log-tree.c",
+      "line": 1120
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "log-tree.c",
+      "line": 1127
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "t/unit-tests/u-mem-pool.c",
+      "line": 8
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/push.c",
+      "line": 402
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "commit-graph.c",
+      "line": 429
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "commit-graph.c",
+      "line": 495
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "commit-graph.c",
+      "line": 523
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "commit-graph.c",
+      "line": 682
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "commit-graph.c",
+      "line": 689
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "commit-graph.c",
+      "line": 705
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "commit-graph.c",
+      "line": 727
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "commit-graph.c",
+      "line": 1888
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "commit-graph.c",
+      "line": 1962
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "commit-graph.c",
+      "line": 1968
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "commit-graph.c",
+      "line": 2123
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "commit-graph.c",
+      "line": 2251
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "commit-graph.c",
+      "line": 2332
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "commit-graph.c",
+      "line": 2499
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "commit-graph.c",
+      "line": 2950
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "commit-graph.c",
+      "line": 222
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "commit-graph.c",
+      "line": 369
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "commit-graph.c",
+      "line": 2208
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "commit-graph.c",
+      "line": 2256
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "commit-graph.c",
+      "line": 2340
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "commit-graph.c",
+      "line": 2347
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "commit-graph.c",
+      "line": 2463
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "commit-graph.c",
+      "line": 2627
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/interpret-trailers.c",
+      "line": 57
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "builtin/interpret-trailers.c",
+      "line": 75
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "hash.c",
+      "line": 282
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "hash.c",
+      "line": 277
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "odb/streaming.c",
+      "line": 197
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge-base.c",
+      "line": 20
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge-base.c",
+      "line": 33
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge-base.c",
+      "line": 76
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge-base.c",
+      "line": 90
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge-base.c",
+      "line": 91
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge-base.c",
+      "line": 94
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge-base.c",
+      "line": 106
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge-base.c",
+      "line": 208
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/bugreport.c",
+      "line": 193
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "reflog.c",
+      "line": 92
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "reflog.c",
+      "line": 564
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "compat/regex/regex.c",
+      "line": 33
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "compat/simple-ipc/ipc-shared.c",
+      "line": 27
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "stable-qsort.c",
+      "line": 55
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "stable-qsort.c",
+      "line": 53
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/last-modified.c",
+      "line": 206
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "negotiator/skipping.c",
+      "line": 209
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "negotiator/skipping.c",
+      "line": 259
+    },
+    {
+      "id": "C-INT-001",
+      "name": "Integer overflow in size calculation",
+      "severity": "HIGH",
+      "cwe": "CWE-190",
+      "file": "mem-pool.h",
+      "line": 42
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "mem-pool.h",
+      "line": 42
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "mem-pool.h",
+      "line": 47
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "xdiff/xdiff.h",
+      "line": 119
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "compat/hstrerror.c",
+      "line": 19
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "http-backend.c",
+      "line": 86
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "http-backend.c",
+      "line": 217
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "http-backend.c",
+      "line": 218
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "http-backend.c",
+      "line": 321
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "http-backend.c",
+      "line": 359
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "http-backend.c",
+      "line": 444
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "http-backend.c",
+      "line": 455
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "http-backend.c",
+      "line": 810
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "http-backend.c",
+      "line": 820
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "http-backend.c",
+      "line": 193
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "http-backend.c",
+      "line": 311
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "http-backend.c",
+      "line": 356
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "http-backend.c",
+      "line": 714
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/commit-tree.c",
+      "line": 157
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "xdiff-interface.c",
+      "line": 282
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "xdiff-interface.c",
+      "line": 296
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "xdiff-interface.c",
+      "line": 187
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "xdiff-interface.c",
+      "line": 257
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "t/helper/test-lazy-init-name-hash.c",
+      "line": 57
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "string-list.c",
+      "line": 223
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "t/helper/test-read-graph.c",
+      "line": 30
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "t/helper/test-read-graph.c",
+      "line": 32
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "t/helper/test-read-graph.c",
+      "line": 34
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "t/helper/test-read-graph.c",
+      "line": 40
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "t/helper/test-read-graph.c",
+      "line": 50
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "t/helper/test-read-graph.c",
+      "line": 122
+    },
+    {
+      "id": "C-INT-001",
+      "name": "Integer overflow in size calculation",
+      "severity": "HIGH",
+      "cwe": "CWE-190",
+      "file": "compat/regex/regex_internal.h",
+      "line": 472
+    },
+    {
+      "id": "C-INT-001",
+      "name": "Integer overflow in size calculation",
+      "severity": "HIGH",
+      "cwe": "CWE-190",
+      "file": "compat/regex/regex_internal.h",
+      "line": 474
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "compat/regex/regex_internal.h",
+      "line": 475
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "compat/regex/regex_internal.h",
+      "line": 705
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "tools/coccinelle/tests/free.c",
+      "line": 10
+    },
+    {
+      "id": "JS-EVAL-001",
+      "name": "Code injection via eval()",
+      "severity": "CRITICAL",
+      "cwe": "CWE-95",
+      "file": "gitweb/static/js/lib/common-lib.js",
+      "line": 217
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "packfile-list.c",
+      "line": 11
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "packfile-list.c",
+      "line": 50
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "packfile-list.c",
+      "line": 67
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "builtin/merge.c",
+      "line": 1792
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "builtin/merge.c",
+      "line": 1859
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge.c",
+      "line": 637
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge.c",
+      "line": 658
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge.c",
+      "line": 673
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge.c",
+      "line": 837
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge.c",
+      "line": 1012
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge.c",
+      "line": 1028
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge.c",
+      "line": 1041
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge.c",
+      "line": 1203
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge.c",
+      "line": 1361
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge.c",
+      "line": 1631
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge.c",
+      "line": 1635
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge.c",
+      "line": 1882
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge.c",
+      "line": 1883
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge.c",
+      "line": 1886
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge.c",
+      "line": 1887
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge.c",
+      "line": 1888
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/merge.c",
+      "line": 1889
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "builtin/merge.c",
+      "line": 225
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "builtin/merge.c",
+      "line": 674
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "builtin/merge.c",
+      "line": 1113
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "t/helper/test-submodule-config.c",
+      "line": 62
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "t/helper/test-submodule-config.c",
+      "line": 68
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "setup.c",
+      "line": 3129
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "setup.c",
+      "line": 128
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "setup.c",
+      "line": 132
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "setup.c",
+      "line": 140
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "setup.c",
+      "line": 165
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "setup.c",
+      "line": 190
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "setup.c",
+      "line": 194
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "setup.c",
+      "line": 977
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "setup.c",
+      "line": 1055
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "setup.c",
+      "line": 1086
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "setup.c",
+      "line": 1203
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "setup.c",
+      "line": 1232
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "setup.c",
+      "line": 1253
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "setup.c",
+      "line": 1296
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "setup.c",
+      "line": 1400
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "setup.c",
+      "line": 1422
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "setup.c",
+      "line": 1737
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "setup.c",
+      "line": 1738
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "setup.c",
+      "line": 2484
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "setup.c",
+      "line": 2634
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "setup.c",
+      "line": 2642
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "setup.c",
+      "line": 2866
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "setup.c",
+      "line": 3142
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "setup.c",
+      "line": 597
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "setup.c",
+      "line": 625
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "setup.c",
+      "line": 1136
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "setup.c",
+      "line": 1161
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "setup.c",
+      "line": 1292
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "setup.c",
+      "line": 1686
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "setup.c",
+      "line": 1706
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "setup.c",
+      "line": 2179
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "setup.c",
+      "line": 2329
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "exec-cmd.c",
+      "line": 79
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "exec-cmd.c",
+      "line": 364
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "exec-cmd.c",
+      "line": 295
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "exec-cmd.c",
+      "line": 318
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "blame.c",
+      "line": 58
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "blame.c",
+      "line": 997
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "blame.c",
+      "line": 998
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "blame.c",
+      "line": 999
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "blame.c",
+      "line": 1015
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "blame.c",
+      "line": 1202
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "blame.c",
+      "line": 1726
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "blame.c",
+      "line": 1896
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "blame.c",
+      "line": 2330
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "blame.c",
+      "line": 2581
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "blame.c",
+      "line": 1316
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "blame.c",
+      "line": 1467
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "blame.c",
+      "line": 1642
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "blame.c",
+      "line": 2757
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "blame.c",
+      "line": 2848
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "blame.c",
+      "line": 2904
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "blame.c",
+      "line": 2923
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/history.c",
+      "line": 47
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/history.c",
+      "line": 197
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/history.c",
+      "line": 340
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/history.c",
+      "line": 494
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/history.c",
+      "line": 974
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/history.c",
+      "line": 1257
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "builtin/history.c",
+      "line": 1698
+    },
+    {
+      "id": "C-BOF-001",
+      "name": "Buffer overflow via unsafe string function",
+      "severity": "CRITICAL",
+      "cwe": "CWE-120",
+      "file": "quote.h",
+      "line": 17
+    },
+    {
+      "id": "C-BOF-001",
+      "name": "Buffer overflow via unsafe string function",
+      "severity": "CRITICAL",
+      "cwe": "CWE-120",
+      "file": "quote.h",
+      "line": 22
+    },
+    {
+      "id": "C-BOF-001",
+      "name": "Buffer overflow via unsafe string function",
+      "severity": "CRITICAL",
+      "cwe": "CWE-120",
+      "file": "quote.h",
+      "line": 23
+    },
+    {
+      "id": "C-CMDI-001",
+      "name": "Command injection via system()/popen()",
+      "severity": "CRITICAL",
+      "cwe": "CWE-78",
+      "file": "quote.h",
+      "line": 14
+    },
+    {
+      "id": "C-CMDI-001",
+      "name": "Command injection via system()/popen()",
+      "severity": "CRITICAL",
+      "cwe": "CWE-78",
+      "file": "quote.h",
+      "line": 19
+    }
+  ]
+}
